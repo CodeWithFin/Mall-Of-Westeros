@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-paper text-ink antialiased;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .text-outline {
+    -webkit-text-stroke: 1px #0A2A1F;
+    color: transparent;
+  }
+  
+  .text-outline-acid {
+    -webkit-text-stroke: 1px #D2E823;
+    color: transparent;
+  }
+  
+  .text-outline-paper {
+    -webkit-text-stroke: 1px #F8F4E8;
+    color: transparent;
+  }
+}
