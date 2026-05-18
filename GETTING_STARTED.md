@@ -4,7 +4,7 @@ Follow these steps in order to get Mall of Westeros running.
 
 ## Step 1: Database Setup
 
-- [ ] Create a Neon account at https://neon.tech (or use your own Postgres)
+- [ ] Create a **Neon** account at https://neon.tech (this project uses Neon, not Supabase)
 - [ ] Create a new project in Neon
 - [ ] Copy the connection string
 - [ ] Open `.env` file in the project root

@@ -4,7 +4,7 @@
 Mall of Westeros is a monolithic e-commerce platform for selling phones and laptops, built with:
 - Frontend: Vite + React + TailwindCSS + TanStack Query
 - Backend: Fastify (serves both API and static frontend)
-- Database: Neon Postgres with Drizzle ORM
+- Database: Neon Postgres with Drizzle ORM (`@neondatabase/serverless` + `drizzle-orm/neon-http`). Do not use Supabase.
 - Payments: Stripe (cards) + M-Pesa (Daraja API)
 
 ## Design Style

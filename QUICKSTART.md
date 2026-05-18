@@ -4,7 +4,7 @@
 
 ### 1. Setup Database
 
-You'll need a PostgreSQL database. The easiest option is [Neon](https://neon.tech) (free tier available).
+This project uses **[Neon](https://neon.tech)** serverless Postgres — not Supabase.
 
 1. Create a Neon account at https://neon.tech
 2. Create a new project
