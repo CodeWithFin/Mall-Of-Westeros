@@ -1,6 +1,9 @@
 node_modules
 dist
+.next
 .env
+__pycache__
+*.pyc
 .DS_Store
 *.log
 .vscode
